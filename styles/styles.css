@@ -1,9 +1,6 @@
-main {
-    max-width: 840px;
-}
-
 nav {
-    background-color:
+    background-color: darkblue;
+    padding: 10px;
 }
 
 nav a {
