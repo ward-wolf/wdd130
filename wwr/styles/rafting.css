@@ -2,6 +2,11 @@
     --primary-color: darkblue;
     --accent1-color: lightblue;
     --accent2-color: black;
+    --text-light: white;
+    --overlay-bg: rgba(173, 216, 230, 0.85);
+    --caption-color: blue;
+    --surface-color: #f5f5f5;
+    --border-color: #ccc;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -58,7 +63,7 @@ header nav ul {
 
 header nav a {
     display: block;
-    color: white;
+    color: var(--text-light);
     text-decoration: none;
     padding: 0.5rem 1rem;
     margin: 0 0.25rem;
@@ -88,8 +93,8 @@ header nav li {
     padding: 1rem;
     text-align: center;
     font-family: var(--heading-font);
-    background-color: rgba(173, 216, 230, 0.7);
-    color: black;
+    background-color: var(--overlay-bg);
+    color: var(--accent2-color);
 }
 
 .hero article {
@@ -101,7 +106,7 @@ header nav li {
     align-items: center;
     gap: 1rem;
     padding: 1rem;
-    background-color: rgba(173, 216, 230, 0.85);
+    background-color: var(--overlay-bg);
 }
 
 .hero article p {
@@ -112,14 +117,14 @@ header nav li {
 .hero article img {
     width: 150px;
     height: auto;
-    flex-shrink: 0;
+    float: right;
 }
 
 /* Section headings */
 
 h2 {
     font-family: var(--heading-font);
-    color: black;
+    color: var(--accent2-color);
     background-color: var(--accent1-color);
     padding: 0.5rem;
     text-align: center;
@@ -129,7 +134,7 @@ h2 {
 
 .history {
     margin: 1rem 0;
-    border: 1px solid #ccc;
+    border: 1px solid var(--border-color);
 }
 
 .history-grid {
@@ -153,8 +158,8 @@ h2 {
 
 .adventure {
     margin: 1rem 0;
-    border: 1px solid #ccc;
-    background-color: #f5f5f5;
+    border: 1px solid var(--border-color);
+    background-color: var(--surface-color);
 }
 
 .adventure-grid {
@@ -178,7 +183,7 @@ h2 {
 }
 
 .adventure-grid figcaption {
-    color: blue;
+    color: var(--caption-color);
     font-size: 0.85rem;
     margin-top: 0.25rem;
 }
@@ -191,7 +196,7 @@ footer {
     grid-template-columns: 1fr auto 1fr;
     align-items: center;
     padding: 1rem;
-    color: white;
+    color: var(--text-light);
 }
 
 footer p {
