@@ -389,12 +389,17 @@ h2 {
     color: var(--caption-color);
     font-size: 0.85rem;
     margin-top: 0.25rem;
+    text-align: center;
 }
 
-.learn-grid p {
+.learn-grid figcaption a {
+    color: var(--caption-color);
+    text-decoration: none;
+}
+
+.learn-grid figcaption p {
     font-size: 0.9rem;
     line-height: 1.5;
-    text-align: center;
     margin-top: 0.5rem;
     color: var(--accent2-color);
 }
@@ -449,6 +454,14 @@ h2 {
     color: var(--caption-color);
     font-size: 0.85rem;
     margin-top: 0.25rem;
+    text-align: center;
+}
+
+.adventure-grid figcaption p {
+    color: var(--accent2-color);
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-top: 0.4rem;
 }
 
 /* Trips Table */
