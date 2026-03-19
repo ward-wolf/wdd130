@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Wolf Rafting</title>
+    <meta name="description"
+      content="Wolf Rafting's Contact Us page with the company's address, map location, a contact form, and staff info.">
+    <meta name="author" content="Steve Ward">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/company-logo.png" alt="Wolf Rafting Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="contact">
+            <h1>Wolf Rafting</h1>
+            <p>100 N Canyon View Street</p>
+            <p>Moab, Utah</p>
+            <p>+1 801 555 5555</p>
+            <p><a href="mailto:info@wolfrafting.com">info@wolfrafting.com</a></p>
+        </div>
+        <div class="map-form">
+            <div class="map">
+                <iframe title="Wolf Rafting Location in Moab, Utah"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12478.973686656294!2d-109.59105030326904!3d38.562724942486064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1773891656666!5m2!1sen!2sus"
+                  width="600" height="450" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+            <div class="form">
+                <form action="#" method="get">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                    <fieldset>
+                        <legend>Message<br>Purpose</legend>
+                        <label><input type="radio" name="purpose" value="general" checked> General
+                            Inquiry</label>
+                        <label><input type="radio" name="purpose" value="reservation"> Reservation
+                            Question</label>
+                        <label><input type="radio" name="purpose" value="website"> Website
+                            Suggestion</label>
+                    </fieldset>
+
+                    <div class="message-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Type here" rows="5"
+                          required></textarea>
+                    </div>
+
+                    <label class="checkbox-label">
+                        <input type="checkbox" name="newsletter" value="yes" checked> Please subscribe me to
+                        the monthly newsletter
+                    </label>
+
+                    <button type="submit">Get in Touch!</button>
+                </form>
+            </div>
+        </div>
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employees-grid">
+                <figure>
+                    <img src="images/employee-1.jpg" alt="Sue A., Lead River Guide">
+                    <figcaption>Sue A. &mdash; Lead River Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee-2.jpg" alt="Tom G., Senior River Guide">
+                    <figcaption>Tom G. &mdash; Senior River Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee-3.jpg" alt="Jane M., Senior River Guide">
+                    <figcaption>Jane M. &mdash; Senior River Guide</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>©2026 🌊 Wolf Rafting 🌊 Steve Ward</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook-square.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin-square.svg" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram-square.svg" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
