@@ -114,6 +114,10 @@ header nav li {
     background-color: var(--overlay-bg);
 }
 
+.hero article h2 {
+    background-color: transparent;
+}
+
 .hero article p {
     flex: 1;
     text-align: left;
@@ -160,6 +164,10 @@ h2 {
 }
 
 /* Contact info block */
+
+.contact-info {
+    text-align: center;
+}
 
 .contact {
     text-align: center;
